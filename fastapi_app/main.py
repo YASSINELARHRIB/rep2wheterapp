@@ -38,7 +38,7 @@ app.mount("/dashboard", WSGIMiddleware(app_dash.server))
 user={"admin":"123"}
 
 
-EXTERNAL_API_URL = "https://weatherapircw-cvdxdhewcuesfkdt.canadacentral-01.azurewebsites.net/info"
+EXTERNAL_API_URL = "https://wheaterapirep-dfazbxbubyeka5dw.canadacentral-01.azurewebsites.net/info"
 
 def get_external_info():
     try:
